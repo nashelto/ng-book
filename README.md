@@ -1,4 +1,4 @@
-ng-book
-=======
+Learning Anguarl via ng-book
+===============================
 
-learning angular
+Learning Angular
