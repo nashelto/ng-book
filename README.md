@@ -1,4 +1,4 @@
-Learning Anguarl via ng-book
+Learning Angular via ng-book
 ===============================
 
-Learning Angular
+Learning Angular (31)
