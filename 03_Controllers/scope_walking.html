@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+<head>
+	<meta charset='utf-8' />
+	<title>Controllers</title>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/foundation.css">
+</head>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+<script src="js/scope_walking.js"></script>
+<body>
+<div ng-controller="ParentController">
+	<div ng-controller="ChildController">
+		<a ng-click="sayHello()" class="button">Say Hello</a>
+		{{ person }}
+	</div>
+</div>
+</body>
+</html>
